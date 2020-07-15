@@ -1,0 +1,4 @@
+Ýþlemci: Intel Core i3 350M, Intel Core i5 450M
+Grafik kartý: Intel Graphics Media Accelerator (GMA) HD Graphics, NVIDIA GeForce 310M
+Görüntü: 14.0 inç
+Aðýrlýk: 2.09kg, 2.2kg, 2.4kg

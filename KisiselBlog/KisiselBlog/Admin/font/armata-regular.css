@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArmataRegular';
+    src: url('armata-regular.eot');
+    src: url('armata-regular.eot') format('embedded-opentype'),
+         url('armata-regular.woff') format('woff'),
+         url('armata-regular.ttf') format('truetype'),
+         url('armata-regular.svg#ArmataRegular') format('svg');
+}

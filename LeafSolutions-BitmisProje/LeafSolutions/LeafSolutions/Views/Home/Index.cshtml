@@ -1,0 +1,183 @@
+﻿@{
+    Layout = "~/Views/shared/_Layout.cshtml";
+    ViewBag.Title = "Leaf Solutions | Ana Sayfa";
+    ViewBag.Description = "Leaf Solutions resmi web sitesi";
+    ViewBag.Keywords = "leaf, solutions, resmi, web, sitesi";
+}
+
+<div id="slider">
+    <section id="jms-slideshow" class="jms-slideshow">
+        <div class="step" data-color="color-2">
+            <div class="jms-content">
+                <h3>Kurumsal Web Çözümleri</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod lacus.</p>
+                <a class="jms-link" href="#">Ayrıntılar</a>
+            </div>
+            <img src="/Content/img/1.png" alt="slider" />
+        </div>
+        <div class="step" data-color="color-3" data-y="900" data-rotate-x="80">
+            <div class="jms-content">
+                <h3>Sektörde 10. Yıl!</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                <a class="jms-link" href="#">Ayrıntılar</a>
+            </div>
+            <img src="/Content/img/2.png" alt="slider" />
+        </div>
+        <div class="step" data-color="color-4" data-x="-100" data-z="1500" data-rotate="170">
+            <div class="jms-content">
+                <h3>Satış Sonrası Destek</h3>
+                <p>Mauris tellus lacus, ornare ligula eu, pellentesque iaculis purus.</p>
+                <a class="jms-link" href="#">Ayrıntılar</a>
+            </div>
+            <img src="/Content/img/3.png" alt="slider" />
+        </div>
+        <div class="step" data-color="color-5" data-x="3000">
+            <div class="jms-content">
+                <h3>Firmanızı yükseltin!</h3>
+                <p>Morbi a velit egestas, fermentum nunc in, gravida neque. Fusce vitae imperdiet lectus.</p>
+                <a class="jms-link" href="#">Ayrıntılar</a>
+            </div>
+            <img src="/Content/img/4.png" alt="slider" />
+        </div>
+        <div class="step" data-color="color-1" data-x="4500" data-z="1000" data-rotate-y="45">
+            <div class="jms-content">
+                <h3>Ziyaretçilerinizi arttırın!</h3>
+                <p> Nulla fringilla congue dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a class="jms-link" href="#">Ayrıntılar</a>
+            </div>
+            <img src="/Content/img/5.png" alt="slider" />
+        </div>
+    </section>
+    <script type="text/javascript">
+        $(function () {
+
+            var jmpressOpts = {
+                animation: { transitionDuration: '0.8s' }
+            };
+
+            $('#jms-slideshow').jmslideshow($.extend(true, { jmpressOpts: jmpressOpts }, {
+                autoplay: true,
+                bgColorSpeed: '0.8s',
+                arrows: false
+            }));
+
+        });
+    </script>
+</div>
+
+<div class="content-text">
+    <h1 style="margin-top: 25px;">2013'ün En Hızlı Büyüyen Hosting Firmasıyız</h1>
+
+    <img src="~/Content/img/cake.png" alt="pay" class="img-left" />
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. >Duis rhoncus nisl neque, ut posuere eros ultricies eget. Vivamus ut blandit magna. Mauris eleifend nibh in est commodo, nec aliquet mi lobortis. Nunc lobortis nibh vel blandit mattis. Curabitur eros eros, sodales in vulputate in, facilisis et libero. Fusce orci augue, dignissim ut varius sit amet, viverra a sem. Vivamus vitae nunc consequat, condimentum metus eget, malesuada enim. Morbi feugiat tristique quam, nec rutrum metus. Aenean elementum velit nec libero semper luctus. Cras a lacus vulputate purus hendrerit ullamcorper. Aenean tempor tincidunt nulla, vitae pulvinar elit commodo fringilla. In sit amet turpis nulla. Etiam malesuada, tellus id gravida rhoncus, velit diam fringilla nulla, non varius leo justo sed velit. Quisque molestie erat odio, at elementum elit euismod ac.
+    </p>
+    <p>
+        Pellentesque et quam id augue lobortis vestibulum non et quam. Vestibulum elementum ac leo nec aliquet. Nam eleifend tristique lorem, id condimentum metus vehicula eget. Duis faucibus nisl a venenatis bibendum. Nulla suscipit odio ac sapien vestibulum, eu egestas lorem ultricies. Ut quis rhoncus massa. Pellentesque venenatis diam vel tellus commodo malesuada. Nullam in turpis nunc. Duis euismod mattis mi, id convallis nunc iaculis posuere. Fusce vitae ultricies est. Donec dapibus dolor orci, nec sodales massa placerat eu. Sed magna quam, pretium vel vulputate non, vestibulum in ipsum. Nunc venenatis, nulla a sollicitudin faucibus, lorem leo faucibus dui, ullamcorper feugiat augue ligula vitae erat. Quisque in nibh quis enim elementum facilisis sit amet vel dui.
+    </p>
+
+</div>
+
+<div class="content-text" style="padding-bottom: 25px;">
+
+    <h2 style="margin-top: 20px;">Paketler</h2>
+
+    <div id="promotion">
+
+        <div class="promotion">
+            <div class="promotion-img">
+                <img src="~/Content/img/leaf-blue-plus.png" alt="leaf blue plus logo" width="64" />
+            </div>
+            <h2>MaviPlus Paket</h2>
+            <span>2 Yıl Hosting</span><br />
+            <span>10 Alan Adı</span><br />
+            <span>Sınırsız Veritabanı</span><br />
+            <span>Sınırsız Alan ve Trafik</span><br />
+            <span>PHP5 & .NET4</span><br />
+            <span>Windows Server 2012</span><br />
+            <a href="/cozumler/kurumsal/">
+                <div class="promotion-button">
+                    <span>Ayrıntılar</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="promotion">
+            <div class="promotion-img">
+                <img src="~/Content/img/leaf-blue.png" alt="leaf blue logo" width="64" />
+            </div>
+            <h2>Mavi Paket</h2>
+            <span>1 Yıl Hosting</span><br />
+            <span>2 Alan Adı</span><br />
+            <span>4 Veritabanı</span><br />
+            <span>500GB Alan ve Trafik</span><br />
+            <span>PHP5 & .NET4</span><br />
+            <span>Windows Server 2012</span><br />
+            <a href="/cozumler/kurumsal/">
+                <div class="promotion-button">
+                    <span>Ayrıntılar</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="promotion">
+            <div class="promotion-img">
+                <img src="~/Content/img/leaf-green-plus.png" alt="leaf green plus logo" width="64" />
+            </div>
+            <h2>YeşilPlus Paket</h2>
+            <span>2 Yıl Hosting</span><br />
+            <span>10 Alan Adı</span><br />
+            <span>Sınırsız Veritabanı</span><br />
+            <span>Sınırsız Alan ve Trafik</span><br />
+            <span>PHP4 & .NET2</span><br />
+            <span>Windows Server 2008</span><br />
+            <a href="/cozumler/bireysel/">
+                <div class="promotion-button">
+                    <span>Ayrıntılar</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="promotion">
+            <div class="promotion-img">
+                <img src="~/Content/img/leaf-green.png" alt="leaf green logo" width="64" />
+            </div>
+            <h2>Yeşil Paket</h2>
+            <span>1 Yıl Hosting</span><br />
+            <span>2 Alan Adı</span><br />
+            <span>4 Veritabanı</span><br />
+            <span>500GB Alan ve Trafik</span><br />
+            <span>PHP4 & .NET2</span><br />
+            <span>Windows Server 2008</span><br />
+            <a href="/cozumler/bireysel/">
+                <div class="promotion-button">
+                    <span>Ayrıntılar</span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="homepage-references">
+    <h2>Referanslar</h2>
+    <section class="tt-grid-wrapper">
+        <ul class="tt-grid tt-effect-stackback tt-effect-delay">
+            <li><a href="#"><img src="/Content/img/1.jpg" alt="img01" /></a></li>
+            <li><a href="#"><img src="/Content/img/2.jpg" alt="img02" /></a></li>
+            <li><a href="#"><img src="/Content/img/3.jpg" alt="img03" /></a></li>
+            <li><a href="#"><img src="/Content/img/4.jpg" alt="img04" /></a></li>
+            <li><a href="#"><img src="/Content/img/5.jpg" alt="img05" /></a></li>
+            <li><a href="#"><img src="/Content/img/6.jpg" alt="img06" /></a></li>
+        </ul>
+        <nav class="nav">
+            <a class="tt-current"></a><a></a><a></a><a></a>
+        </nav>
+    </section>
+</div>
+
+<p>
+    Pellentesque et quam id augue lobortis vestibulum non et quam. Vestibulum elementum ac leo nec aliquet. Nam eleifend tristique lorem, id condimentum metus vehicula eget. Duis faucibus nisl a venenatis bibendum. Nulla suscipit odio ac sapien vestibulum, eu egestas lorem ultricies. Ut quis rhoncus massa.
+</p>

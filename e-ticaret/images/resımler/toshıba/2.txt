@@ -1,0 +1,7 @@
+Ýþlemci	:	Intel® Atom™ Dual Core iþlemci N550 | saat hýzý : 1.50 GHz | Ön Veri Yolu : 667 MHz | 2. seviye önbellek : 512 KB
+Ýþletim Sistemi	:	Orijinal Windows® 7 Starter 32-bit (önceden yüklenmiþ, Toshiba-HDD kurtarma)Türkçe/ingilizce
+Sistem Hafýzasý	:	2,048 MB | maksimum geniþleme : 2,048 MB | teknoloji : DDR3 RAM (1066 MHz)
+Sabit Disk	:	250 GB
+Optik Sürücü	:	Mevcut deðil
+Ekran	:	10.1" | LED geri aydýnlatmalý WSVGA TFT ekran
+Ekran Kartý	:	Mobile Intel® GMA 3150 / Bellek kapasitesi : Kullanýlabilir toplam grafik belleði, 32-bit iþletim sistemi ve 1 GB sistem belleðiyle 250 MB a kadar olabilir Bellek türü : paylaþýlan

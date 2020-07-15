@@ -1,0 +1,27 @@
+Ýþlemci	Intel P6000 PENTIUM
+Ýþlemci Hýzý	1,86 GHz
+Ýþletim Sistemi	
+Orijinal Microsoft® Windows 7 Starter
+Bellek	2 GB DDR3 1066 MHz
+Sabit Disk	250 GB 5400 RPM SATA
+Aðýrlýk	-
+Bluetooth Portu	Var
+Ekran Belleði	512MB Paylaþýmlý Intel® HD Graphics Ekran kartý
+Ekran Boyutu	14"
+Ekran Çözünürlüðü	1366x768
+Ethernet	Var
+Garanti Süresi	2 yýl
+Hoparlör	Dahili
+Bellek Tipi	DDR3
+Model	CPV.P600-2H05S
+Ekran Özelliði	Wide Screen - LED
+Grafik Tipi	-
+Ýþlemci Tipi	Intel  PENTIUM
+Optik Sürücüler	DVD ± RW DUAL
+Pil Tipi	Li-ON smart battery
+Ses Kartý	Dahili
+Tv-out Çýkýþý	VGA
+Wireless	Var
+Kart Okuyucu	MS/MS PRO/MMC/SD
+Dahili Kamera	1.3 MP
+Usb Baðlantý Adedi	4 Adet

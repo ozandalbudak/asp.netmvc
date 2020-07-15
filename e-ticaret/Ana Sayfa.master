@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Ana Sayfa.master.cs" Inherits="Ana_Sayfa" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #Table_01
+        {
+            height: 34px;
+            width: 900px;
+        }
+        #Table_2
+        {
+            height: 203px;
+            width: 175px;
+        }
+        #Table_3
+        {
+            height: 203px;
+        }
+        #Table_3
+        {
+            height: 203px;
+        }
+        #Table_2
+        {
+            height: 203px;
+        }
+        #Table_2
+        {
+            height: 203px;
+        }
+        #Table_2
+        {
+            height: 203px;
+        }
+        .style5
+        {
+            height: 216px;
+        }
+        .style7
+        {
+            width: 135px;
+        }
+        .style9
+        {
+            width: 3px;
+        }
+        .style10
+        {
+            height: 129px;
+        }
+        .style11
+        {
+            width: 299px;
+        }
+        </style>
+</head>
+<body bgcolor="White" >
+    <form id="form1" runat="server">
+    <br />
+    <table align="center" border="10" cellpadding="0" 
+        cellspacing="0" style="width: 900px" dir="ltr" frame="border">
+        <tr>
+            <td colspan="2" class="style5">
+                <img alt="" src="images/banner.png" 
+                    style="width: 1000px; height: 214px" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" width="900"background="images/bg.png">
+<table id="Table_01" width="900" height="40" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="default.aspx">
+				<img src="images/Anasayfa.png" width="140" height="40" border="0" alt=""></a></td>
+		<td>
+			<a href="urunler.aspx">
+				<img src="images/&#xfc;r&#xfc;nler.png" width="126" height="40" border="0" alt=""></a></td>
+		<td>
+			<a href="kampanyalar.aspx">
+				<img src="images/kampanyalar.png" width="127" height="40" border="0" alt=""></a></td>
+		<td>
+			<a href="hakkimizda.aspx">
+				<img src="images/hakk&#x131;m&#x131;zda.png" width="126" height="40" border="0" alt=""></a></td>
+		<td>
+			<a href="iletisim.aspx">
+				<img src="images/iletisim.png" width="127" height="40" border="0" alt=""></a></td>
+		<td>
+			<a href="bizeyazin.aspx">
+				<img src="images/bizeyazin.png" width="127" height="40" border="0" alt=""></a></td>
+		<td>
+			<a href="uyeol.aspx">
+				<img src="images/&#xfc;yeol.png" width="127" height="40" border="0" alt=""></a></td>
+	</tr>
+</table>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" class="style11">
+                <br />
+                         <img alt="" src="images/menu_baslik.png" 
+                    style="width: 227px; height: 32px" /><br />
+                <table border="2" borderColor="black" style="width: 209px">
+                    <tr>
+                        <td class="style10">
+                <table>
+                    <tr>
+                        <td>
+                            E-Mail</td>
+                        <td class="style9">
+                            :</td>
+                        <td class="style7">
+                                <asp:TextBox ID="email" runat="server" Width="130px"></asp:TextBox>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Şifre</td>
+                        <td class="style9">
+                            :</td>
+                        <td class="style7">
+                                <asp:TextBox ID="sifre" runat="server" TextMode="Password" Width="130px"></asp:TextBox>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <asp:Button ID="Button1" runat="server" 
+                        onclick="Button1_Click" Text="Giris" Width="62px" Font-Bold="True" Font-Size="Medium" 
+                                    Height="36px" />
+                                </td>
+                        <td colspan="2">
+                                <asp:Button ID="Button3" runat="server" Text="Sifremi Unuttum" 
+                                    onclick="Button3_Click" Width="142px" Font-Bold="True" Font-Size="Medium" 
+                                    Height="36px" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                <asp:ImageButton ID="ImageButton7" runat="server" Height="20px" 
+                    ImageUrl="~/icons/online.png" Visible="False" Width="17px" />
+                            <asp:Label ID="hata" runat="server" ForeColor="Black" 
+                    Font-Size="Medium"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+              <div id='cssmenu'>
+                 <ul>
+              <asp:DataList ID="DataList1" runat="server" DataSourceID="AccessDataSource1">
+               <ItemTemplate >
+                 <li>
+       <asp:HyperLink ID="HyperLink1" runat="server" Width="186" NavigateUrl='<%# Eval("id", "ayrinti.aspx?kategori={0}") %>' Text='<%# Eval("urun_adi") %>'></asp:HyperLink>
+                     </li>
+             </ItemTemplate>
+   </asp:DataList>
+</ul>
+</div>
+                    <asp:AccessDataSource ID="AccessDataSource1" runat="server" 
+                        DataFile="~/App_Data/Veriler.mdb" 
+                        SelectCommand="SELECT * FROM [kategori] ORDER BY [id]" OnSelecting="AccessDataSource1_Selecting">
+                    </asp:AccessDataSource>
+            </td>
+            <td valign="top" title="Mg Bilişim - Online Satış Ana Sayfa" 
+                width="700" align="left">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" colspan="2">
+                <p title="MG Bilişim - Online Satış Ana Sayfa" 
+        align="right">
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" 
+                        Text="2013  Coprayting  © NO Bilişim - Online Satış !!!"></asp:Label>
+                </p>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

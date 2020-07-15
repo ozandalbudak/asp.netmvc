@@ -1,0 +1,796 @@
+﻿
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('font/opensans-light_0.eot');
+    src: url('font/opensans-light_0.eot') format('embedded-opentype'),
+         url('font/opensans-light_0.woff') format('woff'),
+         url('font/opensans-light_0.ttf') format('truetype'),
+         url('font/opensans-light_0.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: tahoma;
+	background-color: #DDDDDD;
+	margin: 0px;
+-webkit-transition: all .3s ease-in-out;
+ -moz-transition: all .3s ease-in-out;
+ -o-transition: all .3s ease-in-out;
+ -ms-transition: all .3s ease-in-out;
+ transition: all .3s ease-in-out;
+	
+	
+}
+#banneralan {
+	background-color: #4B4B4B;
+	height: 153px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banneralan #banner {
+	background-image: url(images/banner.png);
+	height: 153px;
+	width: 1182px;
+}
+#altalan {
+	overflow: hidden;
+	width: 100%;
+}
+#altalan #sol {
+	width: 266px;
+	background-color: #CACACA;
+	float: left;
+	overflow: hidden;
+	min-height:600px;
+}
+#altalan #sag {
+	float: left;
+	
+	overflow: hidden;
+	font-family: Tahoma;
+	padding-right: 10px;
+	padding-top: 0px;
+	line-height: 15px;
+	font-size: 15px;
+	color: #FFF;
+	width: 100%;
+}
+#altalan #sag #kutu {
+	height: 102px;
+	width: 200px;
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#imza {
+	background-color: #6B6B6B;
+	height: 25px;
+	font-size: 11px;
+	line-height: 25px;
+	padding-left: 5px;
+	color: #DDD;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#altalan #sag #kutu .kutubaslik {
+	height: 35px;
+	background-color: #da403e;
+	line-height: 35px;
+	width: 190px;
+	padding-left: 10px;
+	font-family: OpenSansLight;
+	font-size: 14px;
+}
+#altalan #sag #kutu .kutualt {
+	float: left;
+	height: 33px;
+	width: 200px;
+	background-color: #636363;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #636363;
+font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+}
+#altalan #sag #kutu .kutualt .kutusol {
+	width: 55px;
+	height: 33px;
+	float: left;
+	line-height: 33px;
+	padding-left: 5px;
+	font-family: OpenSansLight;
+	overflow: hidden;
+	font-size: 14px;
+}
+#altalan #sag #kutu .kutualt .kutusag {
+	float: left;
+	height: 33px;
+	background-color: #9a9898;
+	width: 135px;
+	line-height: 33px;
+	padding-left: 5px;
+	font-family: OpenSansLight;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+#altalan #sag #kutu .kutualtbuyuk {
+	float: left;
+	height: 66px;
+	width: 200px;
+	background-color: #636363;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #636363;
+font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+}
+
+
+#altalan #sag #kutu .kutualtbuyuk .kutusolbuyuk {
+	width: 90px;
+	height: 57px;
+	float: left;
+	line-height: 20px;
+	padding-left: 5px;
+	font-family: OpenSansLight;
+	overflow: hidden;
+	padding-right: 5px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+#altalan #sag #kutu .kutualtbuyuk .kutusagbuyuk {
+	float: left;
+	height: 66px;
+	background-color: #9a9898;
+	width: 95px;
+	line-height: 67px;
+	padding-left: 5px;
+	font-family: OpenSansLight;
+	font-size: 35px;
+	text-align: center;
+}
+#altalan #sol ul li {
+	list-style-type: none;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #747474;
+}
+#altalan #sol ul {
+	margin: 0px;
+	padding: 0px;
+}
+#altalan #sol ul li a {
+	line-height: 42px;
+	color: #FFF;
+	text-decoration: none;
+	padding-left: 15px;
+	display: block;
+	width: 209px;
+	background-color: #818181;
+	border-left-width: 42px;
+	border-left-style: solid;
+	border-left-color: #636363;
+	font-size: 14px;
+}
+
+
+
+#altalan #sol ul li a:hover {	
+	
+	background-color: #da403e;
+	border-left-width: 42px;
+	border-left-style: solid;
+	border-left-color: #da403e;
+	transition-duration:0.5s;
+	
+}
+
+#altalan #sol ul li ul {
+	display: none;
+	width: 225px;
+	padding-left: 42px;
+}
+
+
+#altalan #sol ul li ul li  {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c43432;
+	
+
+}
+
+#altalan #sol ul li ul li a {
+	line-height: 30px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	background-color: #e45553;
+	border-left-width: 42px;
+	border-left-style: solid;
+	border-left-color: #c43432;
+	font-size: 14px;
+	float: left;
+	width: 200px;
+}
+
+#altalan #sol ul li ul li a:hover {
+	line-height: 30px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	background-color: #c43432;
+	
+	
+
+
+}
+
+.ok{
+	background-image: url(images/ok2.png);
+	background-repeat: no-repeat;
+	background-position: 195px 0px;
+	}
+	
+.ok2{
+	background-image: url(images/ok3.png);
+	background-repeat: no-repeat;
+	background-position: 195px 0px;
+	}
+.isim {
+font-family: 'Open Sans', sans-serif;
+	
+	}
+#altalan #sag #ekle a {
+	color: #da403e;
+	line-height: 42px;
+}
+
+#altalan #sag #ekle ul {
+	margin: 0px;
+	padding: 0px;
+}
+#altalan #sag #ekle ul li {
+	list-style-type: none;
+	float: left;
+}
+#altalan #sag #ekle ul li a {
+	display: block;
+	line-height: 40px;
+	padding-right: 29px;
+	padding-left: 29px;
+	color: #da403e;
+	text-decoration: none;
+	background-color: #FFF;
+	border: 1px solid #da403e;
+	margin-left: 5px;
+}
+
+#altalan #sag #ekle ul li a:HOVER {
+	
+	background-color: #da403e;
+	border: 1px solid #da403e;
+	color:#FFF;
+
+}
+#altalan #sag .satir {
+	overflow: hidden;
+	margin-top: 5px;
+}
+.baslik {
+	background-color: #818181;
+	width: 130px;
+	height: 38px;
+	margin-left: 6px;
+	float: left;
+	border: 1px solid #818181;
+	line-height: 40px;
+	padding-left: 10px;
+
+}
+.baslik a {
+	line-height: 40px;
+	color: #FFF;
+	text-decoration: none;
+	width: 115px;
+	padding-left: 10px;
+	
+}
+
+.baslikufak {
+	background-color: #818181;
+	width: 70px;
+	height: 38px;
+	margin-left: 6px;
+	float: left;
+	border: 1px solid #818181;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.textalan {
+	float: left;
+}
+.yazialanstil{
+	border: 1px solid #CCCCCC;
+	height: 28px;
+	width: 99%;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #da403e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    margin-bottom:10px;
+    padding-left:1%;
+ 
+	}
+	.yazialanstiliki
+	{
+	margin-bottom:10px; display:block; overflow:hidden; margin-top:10px;
+	border: 1px solid #CCCCCC;
+	background-color:#fff;
+	line-height:30px;
+	text-align:center;
+	width: 100%;	
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #da403e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	
+	}
+	
+.tursec{
+	border: 1px solid #CCCCCC;
+	height: 40px;
+	width: 100%;
+	float: left;
+	
+	padding-left: 1%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #da403e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	display: block;
+	margin-bottom:5px;
+	}
+	.tursecufak{
+	border: 1px solid #CCCCCC;
+	height: 40px;
+	width: 140px;
+	float: left;
+	margin-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #da403e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	display: block;
+	}
+	
+	
+		.tursecekler{
+	border: 1px solid #CCCCCC;
+	height: 27px;
+	width: 150px;
+	float: left;
+	
+	margin-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #da403e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	display: block;
+	}
+	
+.liste{
+	line-height: 10px;
+	height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+		}
+		
+.kaydet{
+	border: 0px solid #CCCCCC;
+	height: 40px;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #da403e;
+	font-size: 14px;
+    
+	
+		}
+
+
+
+		
+.kaydet:hover{
+	border: 1px solid #da403e;
+	
+	
+	color: #da403e;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+	font-size: 14px;
+	transition-duration:0.5s;
+	cursor:pointer
+		}
+/* #altalan #sol ul li:hover ul {
+	display: block;
+} /* CSS Document */
+#altalan #sag table {
+	margin-top: 5px;
+	margin-left: 5px;
+	}
+#altalan #sag table tr .tablobaslik {
+	background-color: #da403e;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e86160;
+	height: 38px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 38px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	
+	#altalan #sag table tr .tabloicerik {
+	background-color: #FFFFFF;
+	height: 32px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 32px;
+	text-align: left;
+	padding-left: 10px;
+	color: #666;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #c7c7c7;
+	border-right-color: #c7c7c7;
+	border-bottom-color: #c7c7c7;
+	border-left-color: #c7c7c7;
+	overflow: hidden;
+			}
+
+
+#altalan #sag table tr .tabloicerik:hover {
+	color: #da403e;
+	cursor:pointer;
+	
+	
+}
+#altalan #sag table tr .tablobaslik a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+#altalan #sag table tr .tablobaslik a:hover {
+	color: #EFEFEF;
+	text-decoration: none;
+}
+
+
+.sil1{
+	border: 0px solid #FFF;
+	background-image: url(images/sil2.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 20px;
+	cursor: pointer;
+	display: block;
+	margin-left: 10px;
+	}
+
+	
+.sil1:hover{
+	background-image: url(images/sil3.png);
+	}
+.duzenle1{
+	border: 0px solid #FFF;
+	background-image: url(images/duzenle2.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 20px;
+	cursor: pointer;
+	display: block;
+	margin-left: 17px;
+	}
+	
+	.duzenle1:hover{
+	background-image: url(images/duzunle3.png);
+	}
+
+
+
+.span 
+{  
+	background-color: #818181;
+	width: 124px;
+	height: 38px;
+	margin-left: 6px;
+	float: left;
+	border: 1px solid #818181;
+	line-height: 40px;
+	color: #FFF;
+	text-decoration: none;
+	width: 115px;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+
+.tabloicerik {
+
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 32px;
+	text-align: left;
+	padding-left: 10px;
+	color: #666;
+
+	overflow: hidden;
+			}
+
+
+.tabloicerik:hover {
+	color: #da403e;
+	cursor:pointer;
+	
+}
+
+
+.tabloicerik td {   
+    padding: 5px;
+    padding-left:15px;   
+    font-size:12px;
+    color: #333;  
+    background-color:#fff; 
+    	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #c7c7c7;
+	border-right-color: #c7c7c7;
+	border-bottom-color: #c7c7c7;
+	border-left-color: #c7c7c7;
+} 
+
+.tabloicerik td a    
+{
+    
+    color: #717171;  
+    text-decoration:none;
+    font-size:12px; 
+}  
+.tabloicerik td a:hover
+{
+    color:#ce6804;
+    
+}  
+
+.tabloicerik th {   
+    padding: 4px;   
+    padding-left:15px;
+    color: #fff;   
+    background: #da403e;   
+    border-left: solid 1px #f05755;   
+    text-decoration:none;
+    
+}  
+
+.tabloicerik th a{ text-decoration:none;}
+
+.tabloicerik .alt { background: #fcfcfc url(images/grd_alt.png) repeat-x top; }  
+.tabloicerik .pgr { background: #424242 url(images/grd_pgr.png) repeat-x top; }  
+.tabloicerik .pgr table { margin: 5px 0; }  
+.tabloicerik .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    border-left: solid 1px #666;   
+    
+    color: #fff;   
+    line-height: 12px;   
+ }     
+.tabloicerik .pgr a { color: #666; text-decoration: none; }  
+.tabloicerik .pgr a:hover { color: #000; text-decoration: none; }
+
+
+.sayfarakam a{
+    display:block;
+    width:50px;
+    background-color:#CCCCCC;
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+
+}
+.sayfarakam span {
+    display:block;
+    width:50px;
+    background-color:#da403e;
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+
+}
+
+
+    
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	border: 0px solid #CCCCCC;
+	height: 40px;
+	width: 565px;
+	float: left;
+	line-height:40px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #da403e;
+	font-size: 14px;
+	margin-bottom:10px;
+	display:block;
+	cursor:pointer;
+	
+	padding-left:15px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	color:#fff;
+	display:block;
+	height: 30px;
+	width: 540px;
+}
+    
+
+
+
+#bgimg {
+	position: fixed;
+	z-index: -1;
+}
+
+#alt {
+	height: 550px;
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/arka.png);
+	background-repeat: no-repeat;
+	margin-top: 5%;
+	overflow: hidden;
+}
+#alt #icon {
+	height: 175px;
+	width: 400px;
+	margin-left: 32px;
+	margin-top: 30px;
+}
+#alt #icon a {
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	font-size: 35px;
+	line-height: 60px;
+	display: block;
+}
+
+
+#alt #girisler {
+	height: 190px;
+	width: 400px;
+	margin-left: 32px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+#alt #girisler #girisalan {
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 66px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+#alt #girisler #girisalan .yaziyaz {
+	background-image: url(images/yazilaralt.png);
+	height: 28px;
+	width: 251px;
+	margin-top: 10px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	color: #da403e;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	float: left;
+	background-color: transparent;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#alt #girisler #girisalan .girisyap {
+	background-image: url(images/girisalta.png);
+	height: 48px;
+	width: 272px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	float: left;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	margin-top: 7px;
+}
+
+#alt #girisler #girisalan .girisyap:hover {
+	background-image: url(images/yazilaralt.png);
+	cursor: pointer;
+	color: #da403e;
+}
+
+

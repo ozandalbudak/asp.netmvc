@@ -1,0 +1,21 @@
+Casper Nirvana CNK.P610-2H25S Laptop
+
+Casper Laptop Ýþlemci     : Intel Pentium P6100 Ýþlemci Hýzý 2.00 GHz. 3 MB Cache
+Casper Laptop Ýþletim Sistemi     : Windows 7 Starter
+Casper Laptop Bellek     : 2 GB DDR3
+Casper Harddisk     : 250 GB SATA
+Casper Laptop Ekran Kartý     : 1 GB DDR3 ATI HD 5145 Ekran Kartý - 512 MB Ayrýlmýþ Bellek
+Casper Laptop Ekran     : 15.6" WXGA (1366x768) HD LED Ekran
+Ana Kart     : Intel HM55 Chipset
+Optik Sürücü     : DVD±RW DUAL
+Kablosuz Að     : Kablosuz Að Baðlantýsý 802.11 b/g/n
+Card Reader     : Multi Card Reader
+Ethernet     : Var
+Ses     : Dahili Hoparlör&Mikrofon
+USB Port     : 3 X Usb 2.0 Port
+HDMI Port     : Var
+E-Sata Port     : Var
+Klavye     : Sayýsal tuþ takýmlý, Türkçe Q
+Batarya     : Li-ION smart battery
+Kamera     : 1.3 MP Web Kamera
+Aðýrlýk     : Batarya Dahil 2.60 Kg.

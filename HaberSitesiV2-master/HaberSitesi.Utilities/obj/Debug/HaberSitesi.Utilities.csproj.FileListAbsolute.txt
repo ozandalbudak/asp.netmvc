@@ -1,0 +1,15 @@
+C:\Users\Acer\documents\visual studio 11\Projects\HaberSitesi\HaberSitesi.Utilities\bin\Debug\HaberSitesi.Utilities.dll
+C:\Users\Acer\documents\visual studio 11\Projects\HaberSitesi\HaberSitesi.Utilities\bin\Debug\HaberSitesi.Utilities.pdb
+C:\Users\Acer\documents\visual studio 11\Projects\HaberSitesi\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.dll
+C:\Users\Acer\documents\visual studio 11\Projects\HaberSitesi\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.pdb
+C:\Users\Acer\documents\visual studio 11\Projects\HaberSitesi\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Documents\GitHub\HaberSitesiV2\HaberSitesi.Utilities\bin\Debug\HaberSitesi.Utilities.dll
+C:\Users\Acer\Documents\GitHub\HaberSitesiV2\HaberSitesi.Utilities\bin\Debug\HaberSitesi.Utilities.pdb
+C:\Users\Acer\Documents\GitHub\HaberSitesiV2\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Documents\GitHub\HaberSitesiV2\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.dll
+C:\Users\Acer\Documents\GitHub\HaberSitesiV2\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.pdb
+C:\Users\OZAN\Desktop\HaberSitesiV2-master\HaberSitesi.Utilities\bin\Debug\HaberSitesi.Utilities.dll
+C:\Users\OZAN\Desktop\HaberSitesiV2-master\HaberSitesi.Utilities\bin\Debug\HaberSitesi.Utilities.pdb
+C:\Users\OZAN\Desktop\HaberSitesiV2-master\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\OZAN\Desktop\HaberSitesiV2-master\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.dll
+C:\Users\OZAN\Desktop\HaberSitesiV2-master\HaberSitesi.Utilities\obj\Debug\HaberSitesi.Utilities.pdb

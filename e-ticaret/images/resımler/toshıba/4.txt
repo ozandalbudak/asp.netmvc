@@ -1,0 +1,8 @@
+
+Ýþlemci	:	x
+Ýþletim Sistemi	:	Orijinal Windows XP® Home Edition Türkçe/Ýngilizce
+Sistem Hafýzasý	:	1,024 MB | maksimum geniþleme : 2,048 MB | teknoloji : DDR2 RAM (800 MHz)
+Sabit Disk	:	160 GB
+Optik Sürücü	:	Mevcut deðil
+Ekran	:	10.1" | LED geri aydýnlatmalý WSVGA TFT ekran
+Ekran Kartý	:	Mobile Intel® GMA 950 / Bellek kapasitesi : 512 MB sistem belleðiyle en fazla 224 MB toplam kullanýlabilir grafik belleði / Bellek türü : paylaþýlan

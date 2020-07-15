@@ -1,0 +1,675 @@
+﻿body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #999;
+	font-family: 'Open Sans', sans-serif;
+	
+	
+}
+
+#bgimg {
+	position: fixed;
+	z-index: -1;
+        top: 0px;
+        left: 0px;
+    }
+
+.genel {
+	height: auto;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.sol {
+	height: auto;
+	width: 280px;
+	overflow: hidden;
+	float: left;
+}
+
+
+.resimkismi {
+	height: 280px;
+	width: 280px;
+}
+
+.menukismi {
+	width: 280px;
+	overflow:hidden;
+}
+
+.menukismi ul {
+	margin: 0px;
+	padding: 0px;
+}
+.menukismi ul li {
+	list-style-type: none;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #212c30;
+}
+
+.menukismi ul li a {
+	line-height: 60px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 223px;
+	background-color: #2b363a;
+	font-size: 14px;
+	border-right-width: 42px;
+	border-right-style: solid;
+	border-right-color: #404d52;
+	text-align: right;
+	padding-right: 15px;
+}
+.menukismi ul li a.secili{
+	border-bottom-width: 0px;
+    border-right-width: 42px;
+	border-right-style: solid;
+	border-right-color: #dda431;
+    background-color: #f6bb42;
+	display: block;
+        
+}
+
+
+
+
+.menukismi ul li a:hover {
+	background-color: #f6bb42;
+	border-right-width: 42px;
+	border-right-style: solid;
+	border-right-color: #dda431;	
+    transition-duration: 0.5s;
+}
+
+.sagust {
+	
+	width: 678px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 20px;
+	overflow: hidden;
+}
+.genelsag {
+	overflow: hidden;
+	float: left;
+	width: 720px;
+}
+.foot {
+	float: right;
+	width: 680px;
+	height: 21px;
+	background-color: #e6e6e6;
+	padding: 20px;
+	line-height: 30px;
+	color: #5d5d5d;
+}
+.imzaalan {
+	float: left;
+	overflow: hidden;
+	width: 450px;
+	font-size: 14px;
+}
+.sosyalpaylas {
+	float: right;
+	width: auto;
+	font-size: 12px;
+}
+.face {
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+.face:hover {
+	opacity:0.7;
+	transition-duration: 0.5s;
+	cursor:pointer;
+}
+.baslik {
+	font-size: 30px;
+	font-weight: 300;
+	color: #4b4b4b;
+}
+.cizgi {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f6bb42;
+	margin-bottom: 10px;
+}
+
+.cizgi2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f6bb42;
+	margin-bottom: 20px;
+}
+.yazi {
+	color: #4b4b4b;
+	margin-bottom: 20px;
+    display:block;
+    overflow:hidden;
+}
+
+.yazi a {
+	color: #4b4b4b;
+	margin-bottom: 20px;
+    text-decoration:none;
+    display:block;
+}
+
+.yazi a:hover {
+	color: #212c30;
+	margin-bottom: 20px;
+}
+
+.parca {
+	height: 5px;
+	width: 60px;
+	margin-top: 10px;
+	background-color: #f6bb42;
+}
+
+.parca2 {
+	height: 5px;
+	width: 190px;
+	margin-top: 10px;
+	background-color: #f6bb42;
+}
+.kisibilgileri {
+	overflow: hidden;
+}
+.bilgialan {
+	float: left;
+	padding-left: 20px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.sorualan {
+	height: 40px;
+	width: auto;
+	padding-left: 5px;
+	line-height: 40px;
+	padding-right: 5px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #eeeeee;
+	border-bottom-color: #eeeeee;
+	border-left-color: #eeeeee;
+	color: #aaa1a1;
+	float: left;
+	overflow: hidden;
+}
+.cevappalan {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 40px;
+	height: 40px;
+	width: auto;
+	background-color: #f6f6f6;
+	border: 1px solid #eeeeee;
+	color: #5d5d5d;
+	overflow: hidden;
+}/* CSS Document */
+
+
+
+.formyazi {
+    	height: 40px;
+	width: 94%;
+	padding-left: 2%;
+	line-height: 40px;
+	padding-right: 1%;
+	border:1px solid #eeeeee;
+	color: #aaa1a1;
+	display:block;
+	overflow: hidden;
+    margin-bottom:10px;
+}
+
+.formkutu {
+
+	padding-left: 1%;
+	line-height: 40px;
+	height: 38px;
+	width: 98%;
+	background-color: #f6f6f6;
+	border: 1px solid #eeeeee;
+	color: #5d5d5d;
+	overflow: hidden;
+    margin-bottom:10px;
+    font-size:16px;
+}
+
+.formgonder {
+    	line-height: 40px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	width: 99%;
+	background-color: #2b363a;
+	font-size: 16px;
+    border: 1px solid #404d52;
+	padding-right: 15px;
+}
+.formgonder:hover {
+	background-color: #f6bb42;
+    transition-duration: 0.5s;
+}
+
+.yazibaslik {
+	font-weight: bold;
+	font-size: 20px;
+    color: #4b4b4b;
+	margin-bottom: 2px;
+}
+
+
+
+.tarih {
+	width: auto;
+	line-height: 32px;
+	font-size: 12px;
+	color: #999;
+	height: 30px;
+	overflow: hidden;
+	float: left;
+	padding-right: 20px;
+	padding-left: 0px;
+}
+.yaziblogdis {
+	color: #4b4b4b;
+	text-align: justify;
+	font-size: 13px;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	height: 68px;
+	line-height: 18px;
+    font-size:14px;
+    display:block;
+}
+.yaziblogdis a{
+	color: #4b4b4b;
+	text-align: justify;
+	font-size: 13px;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	height: 68px;
+	line-height: 18px;
+    font-size:14px;
+    display:block;
+}
+
+.yaziblog {
+	color: #4b4b4b;
+	margin-bottom: 20px;
+	line-height: 25px;
+	text-align: justify;
+	font-size: 14px;
+}
+.yaziblog a{
+	color: #F6BB42;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.yaziblog .etiket a{
+	color: #F6BB42;
+	text-decoration: none;
+	font-weight:100;
+}
+
+.biblog {
+	overflow: hidden;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin-bottom: 20px;
+}
+
+
+.blogbilgiler {
+	overflow: hidden;
+}
+.bilgialan {
+	float: left;
+	padding-left: 20px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.blogresim {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.blogresimdis {
+	overflow: hidden;
+	height: 150px;
+	width: 339px;
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+.biblog a {
+	text-decoration: none;
+}
+.biblog a:hover {
+}
+
+
+
+
+
+
+
+
+.oklar {
+	
+	width: 275px;
+	height: 50px;
+	overflow: hidden;
+}
+.sayfa {
+	float: left;
+	line-height: 40px;
+	width: 180px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.sagok {
+	text-decoration: none;
+	background-image: url(images/sagok.png);
+	height: 36px;
+	width: 36px;
+	display: block;
+	float: left;
+}
+
+
+.solok {
+	text-decoration: none;
+	background-image: url(images/solok.png);
+	height: 36px;
+	width: 36px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.solok:hover {
+	
+	background-image: url(images/solok2.png);
+
+}
+
+.sagok:hover {
+	
+	background-image: url(images/sagok2.png);
+
+}
+
+
+
+.cizgi {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f6bb42;
+	margin-bottom: 10px;
+}
+
+.cizgi2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f6bb42;
+	margin-bottom: 20px;
+}
+
+
+
+.parca {
+	height: 5px;
+	width: 60px;
+	margin-top: 10px;
+	background-color: #f6bb42;
+	overflow: hidden;
+}
+
+.parca2 {
+	height: 5px;
+	width: 190px;
+	margin-top: 10px;
+	background-color: #f6bb42;
+}
+.kisibilgileri {
+	overflow: hidden;
+}
+
+.baslikic{
+	font-size: 30px;
+	font-weight: 300;
+	color: #4b4b4b;
+	height: 50px;
+	width: 400px;
+	overflow: hidden;
+	float: left;
+	
+}
+
+.yazibaslik2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #4b4b4b;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.yorumalan {
+	overflow: hidden;
+	margin-top: 10px;
+	height: auto;
+}
+
+.yorumsol {
+	float: left;
+	width: 320px;
+	overflow: hidden;
+}
+.yorumsag {
+	float: left;
+	overflow: hidden;
+	width: 350px;
+	margin-left: 8px;
+}
+
+.yorumsol .yaz {
+	width: 295px;
+	height: 20px;
+	border: 1px solid #999;
+	background-color: #FFF;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #999;
+	margin-bottom: 8px;
+	line-height: 20px;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.guvenlikresim {
+	width: 80px;
+	height: 30px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+    padding-top:10px;
+    padding-left:13px;
+	-webkit-border-top-left-radius: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-bottomleft: 4px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+
+.yorumsol .guvenlik {
+	width: 200px;
+	height: 20px;
+	border: 1px solid #999;
+	background-color: #FFF;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #999;
+	margin-bottom: 8px;
+	-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.yorumyaz {
+	width: 325px;
+	height: 169px;
+	border: 1px solid #999;
+	background-color: #FFF;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #999;
+	margin-bottom: 15px;
+	-webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+border-radius: 4px;
+}
+.buton {
+	width: 316px;
+	height: 40px;
+	background-color: #F6BB42;
+	border: 1px solid #F6BB42;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.buton:hover {
+	width: 316px;
+	height: 40px;
+	border: 1px solid #F6BB42;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #F6BB42;
+	background-color: #FFF;
+	cursor:pointer;
+	    transition-duration: 0.5s;
+}
+
+.yorumunbiri {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	height: auto;
+}
+
+.gelenyorumlar {
+	
+}
+.yorumresim {
+	overflow: hidden;
+	
+	width: 125px;
+	float: left;
+}
+
+.yorumicerik {
+	overflow: hidden;
+	min-height: 105px;
+	width: 533px;
+	float: right;
+	background-color: #2B363A;
+	padding: 10px;
+	color: #CCC;
+	font-size: 14px;
+	text-align: justify;
+	min-height: 105px;
+	-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+
+.yorumicerik a {
+	color: #F6BB42;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+
+
+
+
+.webiller {
+	height: 155px;
+	width: 320px;
+	overflow: hidden;
+	position: relative;
+	list-style-type: none;
+	padding-top: 0px;
+	float: left;
+	margin-right: 16px;
+	margin-top: 5px;
+    margin-bottom:10px;
+    border:1px solid #f6bb42;
+}
+#altmenu ul .webiller .caption {
+	color: #E8E8E8;
+	line-height: 20px;
+	font-size: 11px;
+}
+.caption 
+{
+	position: relative;
+	text-align: center;
+	background-image: url(images/calismalarim2.png);
+	height: 76px;
+	color: #FFFFFF;
+	line-height: 25px;
+	display: block;
+	text-decoration: none;
+	width: 320px;
+	padding-top: 80px;
+           }

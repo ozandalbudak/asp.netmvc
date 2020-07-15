@@ -1,0 +1,5 @@
+Notebook: Samsung R710
+Ýþlemci: Intel Core 2 Duo P8400
+Grafik kartý: NVIDIA GeForce 9300M GS
+Görüntü: 17.0 inç, 16:10, 1440x900 piksel, parlak: evet
+Aðýrlýk: 3.2kg

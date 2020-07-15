@@ -1,0 +1,20 @@
+Ýþletim Sistemi Orijinal Windows® 7 Home Premium- Orijinal Windows® Home Basic
+Ýþlemci	Intel® Core i5 Ýþlemci 520M (2.40 GHz, 3MB)
+Intel® Core i5 Ýþlemci 560M (2.66 GHz, 3MB) Intel® Core i5 Ýþlemci 450M (2.40 GHz, 3MB)	Intel® Core i5 Ýþlemci 460M (2.53 GHz, 3MB)
+Intel® Core i3 Ýþlemci 350M (2.26 GHz, 3MB)
+Intel® Core i3 Ýþlemci 370M (2.4 GHz, 3MB)
+Intel® Pentium Dual Core Ýþlemci P6100 (2GHz,3MB)
+Chipset	Intel HM55
+Sistem Belleði 3GB(DDR3/1GBX1+2GBX1)
+Bellek Yuvasý 2 x SODIMM
+Ekran	15.6” LED HD (1366 x768) 16:9 Parlak
+Grafik Ýþlemci ATI Mobility Radeon™ HD545v (Harici Grafik)/ ATI Mobility Radeon™
+Grafik Belleði 1 GB gDDR3 (Harici Grafik)/
+Ses	HD (ses kalitesi)
+Ses Efektleri	Mikrofon Sesi Bastýrma / SRS 3D Ses Efekti
+Hoparlör	 3W Stereo Hoparlör (1.5W x 2)
+Web Kamera
+HDD 320GB (5400 rpm S-ATA)
+Aðýrlýk 2.4 Kg
+
+Kaynak: http://www.taylanbey.com/samsung-r540-samsung-dizustu-bilgisayar.html#ixzz1rOzFNzPe

@@ -1,0 +1,5 @@
+Notebook: Asus N80VC (N80 Seri)
+Ýþlemci: Intel Core 2 Duo T5800
+Grafik kartý: NVIDIA GeForce 9300M GS
+Görüntü: 14.1 inç, 16:10, 1280x800 piksel, parlak: evet
+Aðýrlýk: 2.6kg

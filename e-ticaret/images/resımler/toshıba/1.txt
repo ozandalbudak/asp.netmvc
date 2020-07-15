@@ -1,0 +1,8 @@
+
+Ýþlemci	:	Intel® Atom™ iþlemci N455 | saat hýzý : 1.66 GHz | Ön Veri Yolu : 667 MHz | 2. seviye önbellek : 512 KB
+Ýþletim Sistemi	:	Orijinal Windows® 7 Starter 32-bit (önceden yüklenmiþ, Toshiba-HDD kurtarma)Türkçe/ingilizce
+Sistem Hafýzasý	:	1,024 MB | maksimum geniþleme : 2,048 MB | teknoloji : DDR3 RAM (1,066 MHz)
+Sabit Disk	:	160 GB
+Optik Sürücü	:	Mevcut deðil
+Ekran	:	10.1" | LED geri aydýnlatmalý WSVGA TFT ekran
+Dahili Ekran Çözünürlüðü	:	1.024 x 600

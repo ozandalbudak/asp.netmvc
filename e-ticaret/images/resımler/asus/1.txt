@@ -1,0 +1,4 @@
+Intel Core 2 Duo iþlemciye sahip Asus N81g, Nvidia'nýn GeForce GT 120M GPU'sunu kullanan ilk dizüstü bilgisayar olma özelliðini elinde bulunduruyor. Yüksek performans isteyenlere hitap eden bu yeni dizüstü bilgisayar da 160GB'dan 500GB'a kadar depolama kapasitesi bulunmakta. çift SO-DIMM DDR2 RAM bulunan Asus N81Vg'de 4GB'a kadar RAM yükseltmek mümkün.
+
+14 inch LED backlight ekrana sahip Asus N81Vg'de HD 120M 32x paralel iþlem birimi, DirectX 10 desteði, NVIDIA CUDA teknolojisi gibi özelliklerde bulunmakta. 
+

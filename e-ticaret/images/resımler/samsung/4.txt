@@ -1,0 +1,19 @@
+Processor	Intel® Pentium® Dual Core (T4500, 2.3Ghz, 800Mhz FSB, 1MB L2 cache )
+Screen	15.6" (Samsung SuperBright Gloss LED TFT, 1366 x 768 HD)
+Operating System	Windows 7 Home Premium Edition 64-bit
+RAM	2GB (DDR3 800MHZ)
+Hard Drive	500GB
+Optical Drive	DVD Rewriter (Records DVDs 8x & CDs 24x & Dual Layer Super Multi)
+Graphics	Integrated (Intel® GMA X4500 3D Graphics with up to 384MB Shared Memory)
+Wireless LAN	Wireless (802.11b/g/n Wireless)
+Network Card	10/100Mbps Fast Ethernet
+Integrated Webcam	Integrated Webcam with Microphone
+Card Reader	3-in-1 card reader (SD/SDHC,MMC)
+USB Ports	3x USB 2.0 ports
+Speakers	Integrated Sound System
+VGA Port	1 External VGA Port
+Kensington Lock	Kensington lock slot
+Charge Time	2.5 Hours
+Warranty	12 Months Samsung Collect & Return Warranty
+Battery Life	2-3 Hours (up to 3 hours with power management)
+Weight	2-3 Kg (This Model 2.5 Kg)
